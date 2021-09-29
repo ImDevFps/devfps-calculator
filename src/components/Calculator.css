@@ -1,0 +1,91 @@
+.main {
+  position: relative;
+  height: 800px;
+  width: 410px;
+  margin: auto;
+  background-color: black;
+  border-radius: 30px;
+}
+.container {
+  position: absolute;
+  bottom: 0;
+  height: 80%;
+  width: 410px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 30px;
+}
+.screen {
+  grid-column: 1 / span 4;
+  color: white;
+  text-align: right;
+  font-size: 4rem;
+  overflow: hidden;
+}
+.btn {
+  padding: 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgb(44, 43, 43);
+  font-weight: bold;
+}
+.btn-grey {
+  background-color: grey;
+}
+.btn-orange {
+  background-color: rgb(199, 125, 5);
+}
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+input[type='text'] {
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  cursor: none;
+  font-size: 1.85rem;
+  width: 100%;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 1px;
+}
+input:hover {
+  cursor: none;
+}
+input:focus {
+  cursor: none;
+}
+.equal {
+  grid-column: 3/ 5;
+  grid-row: 6;
+  border-radius: 50px;
+}
+.btn-backspace {
+  grid-column: 2/4;
+  grid-row: 0;
+  border-radius: 50px;
+}
+.battery {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+.notch {
+  position: relative;
+  background-color: white;
+  height: 38px;
+  z-index: 0;
+  width: 40%;
+  border-radius: 0 0 30px 30px;
+  margin: auto;
+}
+.wifi {
+  position: absolute;
+  right: 65px;
+  top: 8px;
+}
