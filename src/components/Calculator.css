@@ -16,7 +16,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -24,7 +24,15 @@
     gap: 10px;
     background-color: black;
     padding: 10px;
+    overflow: hidden;
   }
+}
+.above {
+  grid-column: 1 / span 4;
+  color: white;
+  text-align: right;
+  overflow: hidden;
+  height: 40px;
 }
 .screen {
   grid-column: 1 / span 4;
@@ -74,7 +82,7 @@ input:focus {
 }
 .equal {
   grid-column: 3/ 5;
-  grid-row: 6;
+  grid-row: 7;
   border-radius: 50px;
 }
 .btn-backspace {
