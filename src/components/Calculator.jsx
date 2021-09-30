@@ -26,79 +26,68 @@ const Calculator = () => {
   };
 
   return (
-    <div className='main'>
-      <span
-        className='iconify battery'
-        data-icon='ion:battery-half-outline'
-        data-rotate='180deg'
-      ></span>
-      <span className='iconify-inline wifi' data-icon='bx:bx-wifi'></span>
-      <div className='notch'></div>
-      <div className='container'>
-        {/* <form className='screen'>
+    <div className='container'>
+      {/* <form className='screen'>
         <input type='text' value={result} />
       </form> */}
-        <div className='screen'>
-          <div>{result}</div>
-        </div>
-        <span className='btn btn-grey' onClick={resetHandler}>
-          AC
-        </span>
-        <span className='btn btn-grey btn-backspace' onClick={backspaceHandler}>
-          &#8592;
-        </span>
-        <span className='btn btn-orange' onClick={handleClick}>
-          /
-        </span>
-        <span className='btn' onClick={handleClick}>
-          7
-        </span>
-        <span className='btn' onClick={handleClick}>
-          8
-        </span>
-        <span className='btn' onClick={handleClick}>
-          9
-        </span>
-        <span className='btn btn-orange' onClick={multiply}>
-          &times;
-        </span>
+      <div className='screen'>{result}</div>
+      <span className='btn btn-grey' onClick={resetHandler}>
+        AC
+      </span>
+      <span className='btn btn-grey btn-backspace' onClick={backspaceHandler}>
+        &#8592;
+      </span>
+      <span className='btn btn-orange' onClick={handleClick}>
+        /
+      </span>
+      <span className='btn' onClick={handleClick}>
+        7
+      </span>
+      <span className='btn' onClick={handleClick}>
+        8
+      </span>
+      <span className='btn' onClick={handleClick}>
+        9
+      </span>
+      <span className='btn btn-orange' onClick={multiply}>
+        &times;
+      </span>
 
-        <span className='btn' onClick={handleClick}>
-          4
-        </span>
-        <span className='btn' onClick={handleClick}>
-          5
-        </span>
-        <span className='btn' onClick={handleClick}>
-          6
-        </span>
-        <span className='btn btn-orange' onClick={handleClick}>
-          -
-        </span>
+      <span className='btn' onClick={handleClick}>
+        4
+      </span>
+      <span className='btn' onClick={handleClick}>
+        5
+      </span>
+      <span className='btn' onClick={handleClick}>
+        6
+      </span>
+      <span className='btn btn-orange' onClick={handleClick}>
+        -
+      </span>
 
-        <span className='btn' onClick={handleClick}>
-          1
-        </span>
-        <span className='btn' onClick={handleClick}>
-          2
-        </span>
-        <span className='btn' onClick={handleClick}>
-          3
-        </span>
-        <span className='btn btn-orange' onClick={handleClick}>
-          +
-        </span>
+      <span className='btn' onClick={handleClick}>
+        1
+      </span>
+      <span className='btn' onClick={handleClick}>
+        2
+      </span>
+      <span className='btn' onClick={handleClick}>
+        3
+      </span>
+      <span className='btn btn-orange' onClick={handleClick}>
+        +
+      </span>
 
-        <span className='btn btn-zero' onClick={handleClick}>
-          0
-        </span>
-        <span className='btn' onClick={handleClick}>
-          .
-        </span>
-        <span className='btn btn-orange equal' onClick={equal}>
-          =
-        </span>
-      </div>
+      <span className='btn btn-zero' onClick={handleClick}>
+        0
+      </span>
+      <span className='btn' onClick={handleClick}>
+        .
+      </span>
+      <span className='btn btn-orange equal' onClick={equal}>
+        =
+      </span>
     </div>
   );
 };

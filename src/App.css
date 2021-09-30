@@ -7,9 +7,15 @@ body {
   background-color: rgb(90, 83, 73);
   color: white;
   place-content: center;
-  height: 100vh;
+  height: 100%;
   font-size: 2rem;
+  overflow: hidden;
 }
+/* @media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(90, 83, 73);
+  }
+} */
 a {
   text-decoration: none;
   color: black;
