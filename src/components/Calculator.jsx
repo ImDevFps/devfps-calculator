@@ -30,7 +30,6 @@ const Calculator = () => {
       {/* <form className='screen'>
         <input type='text' value={result} />
       </form> */}
-      <div className='above'></div>
       <div className='screen'>{result}</div>
       <span className='btn btn-grey' onClick={resetHandler}>
         AC
