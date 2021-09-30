@@ -16,7 +16,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    height: 97%;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
