@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans Condensed';
-  padding: 20px 40px;
+  font-family: "Open Sans Condensed";
+  padding: 0;
   user-select: none;
   -webkit-user-select: none;
   -webkit-user-drag: none;
@@ -10,6 +10,7 @@ body {
   height: 100%;
   font-size: 2rem;
   overflow: hidden;
+  margin: 0;
 }
 /* @media screen and (max-width: 800px) {
   body {
